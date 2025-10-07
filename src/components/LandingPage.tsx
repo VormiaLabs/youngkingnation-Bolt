@@ -1,5 +1,6 @@
 import { Music2, Users, Check, Clock, Headphones, Star, ArrowRight, Shield, TrendingUp } from 'lucide-react';
 import { artists, testimonials } from '../data/sampleData';
+import heroBg from '../assets/hero-bg.jpg';
 
 // Mock stats data since we're importing artists but not stats
 const stats = {
@@ -21,7 +22,7 @@ export default function LandingPage({ onNavigate }: LandingPageProps) {
         {/* Background Image with Overlay */}
         <div className="absolute inset-0">
           <img 
-            src="/src/assets/hero-bg.jpg" 
+            src={heroBg} 
             alt="Concert background"
             className="w-full h-full object-cover"
           />
