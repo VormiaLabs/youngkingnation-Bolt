@@ -78,42 +78,6 @@ export default function LandingPage({ onNavigate }: LandingPageProps) {
         </div>
       </section>
 
-      {/* How It Works Section */}
-      <section className="py-20 bg-slate-900/50">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-16">
-            <h2 className="text-4xl font-bold text-white mb-4">How It Works</h2>
-            <p className="text-xl text-slate-400 max-w-2xl mx-auto">Simple steps to book your favorite artist</p>
-          </div>
-
-          <div className="grid md:grid-cols-3 gap-8">
-            <div className="bg-slate-800 p-8 rounded-xl text-center">
-              <div className="w-16 h-16 bg-cyan-500/20 rounded-full flex items-center justify-center mx-auto mb-6">
-                <span className="text-2xl font-bold text-cyan-400">1</span>
-              </div>
-              <h3 className="text-xl font-semibold text-white mb-3">Browse Artists</h3>
-              <p className="text-slate-400">Explore our diverse roster of talented artists and find the perfect match for your event.</p>
-            </div>
-
-            <div className="bg-slate-800 p-8 rounded-xl text-center">
-              <div className="w-16 h-16 bg-purple-500/20 rounded-full flex items-center justify-center mx-auto mb-6">
-                <span className="text-2xl font-bold text-purple-400">2</span>
-              </div>
-              <h3 className="text-xl font-semibold text-white mb-3">Book & Confirm</h3>
-              <p className="text-slate-400">Check availability, select your package, and confirm your booking instantly.</p>
-            </div>
-
-            <div className="bg-slate-800 p-8 rounded-xl text-center">
-              <div className="w-16 h-16 bg-amber-500/20 rounded-full flex items-center justify-center mx-auto mb-6">
-                <span className="text-2xl font-bold text-amber-400">3</span>
-              </div>
-              <h3 className="text-xl font-semibold text-white mb-3">Enjoy the Show</h3>
-              <p className="text-slate-400">Sit back and enjoy an unforgettable performance at your event.</p>
-            </div>
-          </div>
-        </div>
-      </section>
-
       {/* How It Works */}
       <section className="py-20 bg-slate-900/50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
